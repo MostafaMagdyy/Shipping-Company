@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cargo Classes">
+      <UniqueIdentifier>{985fbee7-f25a-44c5-b61f-7b914bd2d6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Truck Classes">
+      <UniqueIdentifier>{0399361b-aa81-4184-b55c-e38e49b0f6aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Truck Classes\Child Classes">
+      <UniqueIdentifier>{89c9e0c8-2bc0-47a5-9825-5615eee9ccbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Classes">
+      <UniqueIdentifier>{869a87ae-0a9b-4fae-9f42-6075ca4d958f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Classes\Child Classes">
+      <UniqueIdentifier>{513c6722-87d1-42e1-8e75-c76bfd707cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS Classes">
+      <UniqueIdentifier>{f7ae834b-17c1-4925-aa44-61ef5ad5bf50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS Classes\General List">
+      <UniqueIdentifier>{629fc18f-04fd-45b1-b84e-1364d40c375b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS Classes\Queue">
+      <UniqueIdentifier>{6a4d8ef5-a37b-4c13-9cc8-cdb2e2341c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS Classes\Priority Queue">
+      <UniqueIdentifier>{66959652-7632-446f-9df2-60251c953e1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cargo.h">
+      <Filter>Header Files\Cargo Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Header Files\Truck Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CargoLists.h">
+      <Filter>Header Files\Cargo Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="TruckLists.h">
+      <Filter>Header Files\Truck Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Event Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CancelEvent.h">
+      <Filter>Header Files\Event Classes\Child Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PreparationEvent.h">
+      <Filter>Header Files\Event Classes\Child Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PromoteEvent.h">
+      <Filter>Header Files\Event Classes\Child Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\DS Classes\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>Header Files\DS Classes\Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\DS Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Header Files\DS Classes\Priority Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneraList.h">
+      <Filter>Header Files\DS Classes\General List</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Test1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test4.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test5.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test6.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Test7.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="BonusInput.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
